@@ -1,20 +1,32 @@
 /* PALETTE: https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff */
 
+
+.navbar {
+    background-color: #ffffff;
+}
+
+#nav-logo {
+    padding: 23em;
+}
+
 .hero-image {
     background-image: url("../public/img/snowmobiling.jpg");
     background-size: cover;
     min-height: auto;
     padding:10vw;
- 
 }
 
 .hero-content {
-    background-color:aliceblue;
+    background-color: #ffffff;
     width: 60vw;
     padding: 2em;
     border-radius: 1em;
+}
 
-
+.hero-btn {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
 }
 
 .center-text {
@@ -36,7 +48,17 @@
     padding: 4em;
 }
 
+.info-card {
+    min-height: auto;
+    max-height: 40em;
+}
+
+.info-container {
+    padding: 4em;
+}
+
 .foot-item {
     text-align: center;
     padding: 2em;
 }
+
